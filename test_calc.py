@@ -7,7 +7,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(main_calc.main(-1, 1, '+'), 0)
 
     def test_sub(self):
-        self.assertEqual(main_calc.main(5, 5, '-'), 0)
+        self.assertEqual(main_calc.main(5, 4, '-'), 0)
 
     def test_mul(self):
         self.assertEqual(main_calc.main(2, 7, '*'), 14)
