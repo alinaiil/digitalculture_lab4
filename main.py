@@ -18,4 +18,4 @@ def main(a, b, sign):
 
 
 if __name__ == '__main__':
-    test()
+    main(2, 2, '*')

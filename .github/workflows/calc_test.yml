@@ -35,3 +35,6 @@ jobs:
             git add main.exe
             git commit -a -m 'Changes pushed by GitHub Actions' || true
             git push origin main
+            
+      - name: Run tests
+        run: python -m unittest test_calc.py
